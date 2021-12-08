@@ -1,6 +1,6 @@
 const Greeting = require("./Base");
-const amek = ["verification", "Mendaftar", "new verification"]
-const p = ["verification to", "Thanks for verification", "thanks sudah mendaftar"]
+const amek = ["verification", "Mendaftar", "new verify"]
+const p = ["verification to ", "Thanks for verify in "]
 const e = amek[Math.floor(Math.random() * amek.length)]
 const q = p[Math.floor(Math.random() * p.length)]
 module.exports = class Verification extends Greeting {
